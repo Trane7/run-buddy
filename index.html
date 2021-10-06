@@ -5,7 +5,6 @@
     <title>Run Buddy</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="./assets/css/style.css" />
-
 </head>
 
 <body>
@@ -153,43 +152,64 @@
         </article>
     </section>
 
-    <!-- "reach out" section -->
-    <section id="reach-out" class="contact">
-        <h2 class="section-title secondary-border">Reach Out</h2>
-        <div class="contact-info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.3081096785213!2d-92.90693718416118!3d44.508842079101264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7a52c26c28f47%3A0xeae9b36954017daa!2s301%20Hoffman%20St%20W%2C%20Cannon%20Falls%2C%20MN%2055009!5e0!3m2!1sen!2sus!4v1633394074624!5m2!1sen!2sus"
-            width="400"
-            height="400"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy">
-            </iframe>   
-        </div>
-        <div>
-            <h3>Run Buddy</h3>
-            <p>
-                Any questions or concerns before signing up?
-                <br />
-                Let us know and we'll be happy to talk to you!
-            </p>
-            <address>
-                55 Main Street <br />
-                Some Town, Ca <br />
-                12345<br />
-                P: 555.RUN.BUDZ (555.786.2839)<br />
-                E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
-            </address>
-        </div>
-    </section>
-
-    <!-- footer -->
-    <footer>
-        <h2>❤️ Made with love by Run Buddy.</h2>
-    <div>
-        <a href="#">Read Our Privacy Policy</a><br />
-        &copy; 2019 Run Buddy, Inc.
+<!-- "reach out" start -->
+<section id="reach-out" class="contact">
+    <div class="flex-row">
+      <h2 class="section-title secondary-border">
+        Reach Out
+      </h2>
     </div>
-    </footer>
+
+    <div class="contact-info">
+      <div>
+        <h3>Run Buddy</h3>
+        <p>
+          Any questions or concerns before signing up?
+          <br />
+          Let us know and we'll be happy to talk to you!
+        </p>
+
+        <address>
+          55 Main Street <br />
+          Some Town, Ca <br />
+          12345<br />
+          P: <a href="tel:555.786.2839">555.RUN.BUDZ (555.786.2839)</a><br />
+          E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
+        </address>
+      </div>
+
+      <!-- 2.1 - Added contact form -->
+      <div class="contact-form">
+        <h3>Contact Us</h3>
+        <form>
+          <label for="contact-name" class="visuallyhidden">Your Name</label>
+          <input type="text" id="contact-name" placeholder="Your Name" />
+
+          <label for="contact-message" class="visuallyhidden">Message</label>
+          <textarea id="contact-message" placeholder="Message"></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2845.3081096785213!2d-92.90693718416118!3d44.508842079101264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87f7a52c26c28f47%3A0xeae9b36954017daa!2s301%20Hoffman%20St%20W%2C%20Cannon%20Falls%2C%20MN%2055009!5e0!3m2!1sen!2sus!4v1633394074624!5m2!1sen!2sus"
+      width="400"
+      height="400"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+      </iframe>   
+    </div>
+  </section>
+  <!-- "reach out" end -->
+  <!-- footer -->
+  <footer>
+    <h2>❤️ Made with love by Run Buddy.</h2>
+    <div>
+      <a href="./privacy-policy.html">Read Our Privacy Policy</a><br />
+      &copy; 2019 Run Buddy, Inc.
+    </div>
+  </footer>
 </body>
 
 </html>
